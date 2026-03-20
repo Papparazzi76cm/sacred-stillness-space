@@ -1,16 +1,17 @@
+import { motion } from "framer-motion";
+
 const ResultsSection = () => (
-  <section className="py-24 md:py-32 px-6 bg-secondary">
+  <section className="py-24 md:py-32 px-6 bg-secondary overflow-hidden">
     <div className="max-w-2xl mx-auto text-center">
-      <p className="font-body text-xs tracking-[0.3em] uppercase text-gold mb-8">
-        Resultados
-      </p>
-      <h2 className="font-display text-3xl md:text-5xl font-light text-foreground mb-6 leading-tight">
-        Lo que vive el cliente
-      </h2>
-      <p className="font-body text-base text-foreground/70 font-light mb-12">
+      <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+        transition={{ duration: 0.6 }} className="font-body text-xs tracking-[0.3em] uppercase text-gold mb-8">Resultados</motion.p>
+      <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+        transition={{ duration: 0.7, delay: 0.1 }} className="font-display text-3xl md:text-5xl font-light text-foreground mb-6 leading-tight">Lo que vive el cliente</motion.h2>
+      <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.2 }} className="font-body text-base text-foreground/70 font-light mb-12">
         Después de una sesión, muchas personas experimentan:
-      </p>
-      <div className="gold-line mb-14" />
+      </motion.p>
+      <motion.div initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="gold-line mb-14" />
       <div className="space-y-8 max-w-md mx-auto mb-14">
         {[
           "Calma real (no mental, corporal)",
@@ -18,14 +19,22 @@ const ResultsSection = () => (
           "Sensación de \"volver a sí mismas\"",
           "Liberación de tensión acumulada",
         ].map((item, i) => (
-          <p key={i} className="font-display text-xl md:text-2xl font-light text-foreground/85 italic">
+          <motion.p
+            key={i}
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.3 + i * 0.15, ease: "easeOut" }}
+            className="font-display text-xl md:text-2xl font-light text-foreground/85 italic"
+          >
             {item}
-          </p>
+          </motion.p>
         ))}
       </div>
-      <p className="font-body text-sm text-muted-foreground tracking-wide">
+      <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.8 }}
+        className="font-body text-sm text-muted-foreground tracking-wide">
         No es inmediato para todos, pero es profundo para quienes están listos.
-      </p>
+      </motion.p>
     </div>
   </section>
 );
