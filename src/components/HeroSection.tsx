@@ -32,7 +32,7 @@ const HeroSection = () => {
           className="font-body text-sm md:text-base text-primary-foreground/70 tracking-wide max-w-xl mx-auto leading-relaxed mb-12">
           {t("hero.desc1")}
         </motion.p>
-        <motion.a href="https://wa.me/34658733347" target="_blank" rel="noopener noreferrer" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 1.2 }}
+        <motion.a href="https://wa.me/34658733347?text=Hola%20Adelaida%2C%20me%20gustar%C3%ADa%20reservar%20una%20sesi%C3%B3n%2C%20%C2%BFme%20puedes%20dar%20m%C3%A1s%20informaci%C3%B3n%3F" target="_blank" rel="noopener noreferrer" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 1.2 }}
           whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}
           className="inline-block bg-gold text-foreground font-body text-xs tracking-[0.3em] uppercase px-12 py-5 transition-all duration-500 hover:bg-gold-light">
           {t("hero.cta")}
