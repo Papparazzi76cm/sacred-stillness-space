@@ -8,9 +8,11 @@ import NotSection from "@/components/NotSection";
 import AboutSection from "@/components/AboutSection";
 import BookingSection from "@/components/BookingSection";
 import ClosingSection from "@/components/ClosingSection";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const Index = () => (
   <main>
+    <LanguageSwitcher />
     <HeroSection />
     <WhatIsSection />
     <ExperienceSection />
