@@ -13,7 +13,7 @@ const HeroSection = () => {
   const textY = useTransform(scrollYProgress, [0, 0.6], [0, -60]);
 
   return (
-    <section ref={ref} className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section ref={ref} className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 sm:pt-0">
       <motion.div className="absolute inset-0" style={{ y: imgY, scale: imgScale }}>
         <img src={heroBg} alt="Serene space with natural light" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-foreground/40" />
