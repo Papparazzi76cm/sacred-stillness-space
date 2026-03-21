@@ -1,4 +1,5 @@
 import aboutImg from "@/assets/about-portrait.jpg";
+import { Instagram } from "lucide-react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
