@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Instagram } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const ClosingSection = () => {
@@ -16,6 +17,14 @@ const ClosingSection = () => {
           whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}
           className="inline-block bg-gold text-foreground font-body text-xs tracking-[0.3em] uppercase px-12 py-5 transition-all duration-500 hover:bg-gold-light">
           {t("closing.cta")}
+        </motion.a>
+
+        <motion.a href="https://www.instagram.com/the.sacredstillness?igsh=NWs2dHY5Y2Rjcmky" target="_blank" rel="noopener noreferrer"
+          initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.6 }}
+          className="inline-flex items-center gap-2 mt-10 font-body text-xs tracking-[0.2em] uppercase text-primary-foreground/50 hover:text-gold transition-colors duration-300">
+          <Instagram className="w-4 h-4" />
+          @the.sacredstillness
         </motion.a>
       </div>
     </section>
