@@ -16,14 +16,14 @@ const FilterSection = () => (
         variants={fadeUp} custom={0}
         className="font-body text-xs tracking-[0.3em] uppercase text-gold mb-8"
       >
-        Un espacio exclusivo
+        An exclusive space
       </motion.p>
       <motion.h2
         initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-80px" }}
         variants={fadeUp} custom={1}
         className="font-display text-3xl md:text-5xl font-light text-foreground mb-12 leading-tight"
       >
-        Este espacio no es para todo el mundo.
+        This space is not for everyone.
       </motion.h2>
       <motion.div
         initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }}
@@ -35,14 +35,14 @@ const FilterSection = () => (
         variants={fadeUp} custom={2}
         className="font-display text-xl md:text-2xl font-light italic text-foreground/80 mb-12"
       >
-        Es para ti si:
+        It's for you if:
       </motion.p>
       <ul className="space-y-6 text-left max-w-lg mx-auto mb-16">
         {[
-          "Vives bajo alta presión o responsabilidad",
-          "Tu mente no se detiene, incluso cuando todo parece \"bien\"",
-          "Has probado otras cosas, pero sigues sintiendo tensión interna",
-          "Sabes que necesitas algo más profundo, no más información",
+          "You live under high pressure or responsibility",
+          "Your mind won't stop, even when everything seems \"fine\"",
+          "You've tried other things, but still feel inner tension",
+          "You know you need something deeper, not more information",
         ].map((item, i) => (
           <motion.li
             key={i}
@@ -62,16 +62,16 @@ const FilterSection = () => (
         variants={fadeUp} custom={4}
         className="space-y-2 font-body text-sm text-muted-foreground tracking-wide"
       >
-        <p>No es terapia tradicional.</p>
-        <p>No es coaching.</p>
-        <p>No es espiritualidad superficial.</p>
+        <p>It's not traditional therapy.</p>
+        <p>It's not coaching.</p>
+        <p>It's not superficial spirituality.</p>
       </motion.div>
       <motion.p
         initial="hidden" whileInView="visible" viewport={{ once: true }}
         variants={fadeUp} custom={5}
         className="font-display text-2xl md:text-3xl font-light italic text-foreground mt-10"
       >
-        Es experiencia directa.
+        It's direct experience.
       </motion.p>
     </div>
   </section>

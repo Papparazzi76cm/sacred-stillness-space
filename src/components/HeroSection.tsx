@@ -13,7 +13,7 @@ const HeroSection = () => {
   return (
     <section ref={ref} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <motion.div className="absolute inset-0" style={{ y: imgY, scale: imgScale }}>
-        <img src={heroBg} alt="Espacio sereno con luz natural" className="w-full h-full object-cover" />
+        <img src={heroBg} alt="Serene space with natural light" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-foreground/40" />
       </motion.div>
       <motion.div
@@ -40,8 +40,8 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="font-display text-xl md:text-2xl font-light text-primary-foreground/90 italic leading-relaxed mb-4"
         >
-          Donde tu sistema nervioso se regula,
-          <br />y el ruido interno desaparece.
+          Where your nervous system finds regulation,
+          <br />and the inner noise fades away.
         </motion.p>
         <motion.p
           initial={{ opacity: 0 }}
@@ -49,11 +49,11 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 1.2 }}
           className="font-body text-sm md:text-base text-primary-foreground/70 tracking-widest uppercase mt-10 mb-8 max-w-md mx-auto"
         >
-          Para personas que sostienen mucho…
-          <br />y necesitan un espacio donde, por fin, soltar.
+          For those who carry so much…
+          <br />and need a space to finally let go.
         </motion.p>
         <motion.a
-          href="#reservar"
+          href="#book"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.5 }}
@@ -61,7 +61,7 @@ const HeroSection = () => {
           whileTap={{ scale: 0.97 }}
           className="inline-block border border-gold text-primary-foreground font-body text-xs tracking-[0.3em] uppercase px-10 py-4 transition-colors duration-500"
         >
-          Aplicar / Reservar experiencia
+          Apply / Book Experience
         </motion.a>
       </motion.div>
     </section>

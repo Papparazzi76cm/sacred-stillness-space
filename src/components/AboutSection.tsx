@@ -14,16 +14,16 @@ const AboutSection = () => {
         <motion.div className="aspect-[3/4] overflow-hidden">
           <motion.img
             src={aboutImg}
-            alt="Acompañante en postura de presencia"
+            alt="Your guide in a posture of presence"
             className="w-full h-full object-cover"
             style={{ scale: imgScale, y: imgY }}
           />
         </motion.div>
         <div>
           <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-            transition={{ duration: 0.6 }} className="font-body text-xs tracking-[0.3em] uppercase text-gold mb-8">Sobre quién acompaña</motion.p>
+            transition={{ duration: 0.6 }} className="font-body text-xs tracking-[0.3em] uppercase text-gold mb-8">About your guide</motion.p>
           <div className="space-y-6 font-body text-base text-foreground/80 font-light leading-relaxed">
-            {["No enseño desde teoría.", "He vivido estados de supervivencia, desconexión y exigencia interna.", "Y también he experimentado lo que ocurre cuando el cuerpo, por fin, se regula."].map((text, i) => (
+            {["I don't teach from theory.", "I've lived through states of survival, disconnection, and inner demand.", "And I've also experienced what happens when the body finally regulates."].map((text, i) => (
               <motion.p key={i} initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.2 + i * 0.12 }}>{text}</motion.p>
             ))}
@@ -31,9 +31,9 @@ const AboutSection = () => {
           <motion.div initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.5 }} className="gold-line !mx-0 my-10" style={{ originX: 0 }} />
           <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.6 }} className="font-body text-sm text-muted-foreground tracking-wide mb-2">Mi trabajo no es hacerte entender.</motion.p>
+            transition={{ duration: 0.5, delay: 0.6 }} className="font-body text-sm text-muted-foreground tracking-wide mb-2">My work is not to make you understand.</motion.p>
           <motion.p initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.7 }} className="font-display text-2xl font-light italic text-foreground">Es acompañarte a sentir.</motion.p>
+            transition={{ duration: 0.6, delay: 0.7 }} className="font-display text-2xl font-light italic text-foreground">It's to guide you to feel.</motion.p>
         </div>
       </div>
     </section>
