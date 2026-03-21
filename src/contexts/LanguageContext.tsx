@@ -54,7 +54,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "filter.quote": { es: "\"Nunca había sentido que descansar realmente pudiera coexistir con rendimiento máximo. Sacred Stillness lo hizo posible.\"", en: "\"I never thought real rest could coexist with peak performance. Sacred Stillness made it possible.\"" },
 
   // Results
-  "results.label": { es: "⚡ Efectos y beneficios", en: "⚡ Effects & benefits" },
+  "results.label": { es: "Efectos y beneficios", en: "Effects & benefits" },
   "results.title": { es: "Después de una sesión notarás", en: "After a session you'll notice" },
   "results.b1.title": { es: "Mente despejada", en: "Clear mind" },
   "results.b1.desc": { es: "Tu mente se aquieta y tus ideas fluyen con claridad.", en: "Your mind quiets and ideas flow with clarity." },
