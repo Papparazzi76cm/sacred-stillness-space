@@ -44,7 +44,7 @@ const PricingSection = () => {
             <motion.p key={i} initial={{ opacity: 0, x: -15 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
               transition={{ duration: 0.4, delay: 0.5 + i * 0.1 }}
               className="flex items-start gap-3 font-body text-sm text-foreground/70 font-light mb-3">
-              <span className="text-gold text-xs mt-1">◆</span>
+              <span className="text-gold text-xs mt-1">—</span>
               <span>{item}</span>
             </motion.p>
           ))}

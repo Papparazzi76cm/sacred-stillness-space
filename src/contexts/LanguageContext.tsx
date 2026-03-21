@@ -28,7 +28,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "hero.cta": { es: "Asegura tu sesión exclusiva", en: "Secure your exclusive session" },
 
   // What is
-  "what.label": { es: "🧬 Qué es", en: "🧬 What it is" },
+  "what.label": { es: "Qué es", en: "What it is" },
   "what.title": { es: "Qué es Sacred Stillness", en: "What is Sacred Stillness" },
   "what.not1": { es: "No es meditación tradicional.", en: "It's not traditional meditation." },
   "what.not2": { es: "No es coaching.", en: "It's not coaching." },
@@ -45,7 +45,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "exp.item3": { es: "Tu cuerpo aprende a responder con calma y precisión, incluso en días exigentes.", en: "Your body learns to respond with calm and precision, even on demanding days." },
 
   // Filter / Who it's for
-  "filter.label": { es: "🎯 Para quién está diseñado", en: "🎯 Who it's for" },
+  "filter.label": { es: "Para quién está diseñado", en: "Who it's for" },
   "filter.title": { es: "Sacred Stillness es para quienes:", en: "Sacred Stillness is for those who:" },
   "filter.item1": { es: "Sostienen alta responsabilidad mental (empresarios, ejecutivos, profesionales creativos).", en: "Carry high mental responsibility (entrepreneurs, executives, creative professionals)." },
   "filter.item2": { es: "Viven bajo presión constante y agenda cargada.", en: "Live under constant pressure and a packed schedule." },
@@ -54,7 +54,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "filter.quote": { es: "\"Nunca había sentido que descansar realmente pudiera coexistir con rendimiento máximo. Sacred Stillness lo hizo posible.\"", en: "\"I never thought real rest could coexist with peak performance. Sacred Stillness made it possible.\"" },
 
   // Results
-  "results.label": { es: "⚡ Efectos y beneficios", en: "⚡ Effects & benefits" },
+  "results.label": { es: "Efectos y beneficios", en: "Effects & benefits" },
   "results.title": { es: "Después de una sesión notarás", en: "After a session you'll notice" },
   "results.b1.title": { es: "Mente despejada", en: "Clear mind" },
   "results.b1.desc": { es: "Tu mente se aquieta y tus ideas fluyen con claridad.", en: "Your mind quiets and ideas flow with clarity." },
@@ -71,7 +71,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "results.testimonial": { es: "\"Después de 3 sesiones, duermo profundo, tomo decisiones estratégicas más rápido y mi energía se mantiene estable todo el día. Mi productividad se duplicó y mi mente se siente tranquila, incluso en semanas de alta presión. Fue transformador.\"", en: "\"After 3 sessions, I sleep deeply, make strategic decisions faster, and my energy stays stable all day. My productivity doubled and my mind feels calm, even during high-pressure weeks. It was transformative.\"" },
 
   // Pricing
-  "pricing.label": { es: "🧘‍♀️ Experiencia de la sesión", en: "🧘‍♀️ Session experience" },
+  "pricing.label": { es: "Experiencia de la sesión", en: "Session experience" },
   "pricing.title": { es: "Sesiones y precios", en: "Sessions & pricing" },
   "pricing.individual": { es: "Individual", en: "Individual" },
   "pricing.individualDetails": { es: "2 horas de trabajo + 1 hora de llegada/acompañamiento opcional", en: "2 hours of work + 1 hour arrival/optional guidance" },
@@ -91,7 +91,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "pricing.personalized": { es: "Cada sesión es personalizada y exclusiva, diseñada para que tu cuerpo recupere precisión y energía máxima.", en: "Each session is personalized and exclusive, designed for your body to recover precision and peak energy." },
 
   // Not section
-  "not.label": { es: "🚫 Lo que no es", en: "🚫 What it's not" },
+  "not.label": { es: "Lo que no es", en: "What it's not" },
   "not.title": { es: "Lo que Sacred Stillness no es", en: "What Sacred Stillness is not" },
   "not.item1": { es: "No es terapia psicológica", en: "It's not psychological therapy" },
   "not.item2": { es: "No es trabajo emocional", en: "It's not emotional work" },
@@ -103,10 +103,10 @@ const translations: Record<string, Record<Lang, string>> = {
   "about.quote": { es: "\"He vivido estados de tensión extrema y sé lo que tu cuerpo necesita para rendir al máximo y descansar de verdad.\"", en: "\"I've lived through states of extreme tension, and I know what your body needs to perform at its best and truly rest.\"" },
 
   // Booking / Premium pack
-  "booking.label": { es: "🔓 Continuidad y packs premium", en: "🔓 Continuity & premium packs" },
+  "booking.label": { es: "Continuidad y packs premium", en: "Continuity & premium packs" },
   "booking.title": { es: "Sostén el estado", en: "Sustain the state" },
   "booking.body": { es: "Después de experimentar Sacred Stillness, muchas personas descubren que su cuerpo y mente funcionan con más claridad y eficiencia. Para sostener este estado:", en: "After experiencing Sacred Stillness, many people discover that their body and mind function with greater clarity and efficiency. To sustain this state:" },
-  "booking.packLabel": { es: "✨ Pack individual personalizado", en: "✨ Personalized individual pack" },
+  "booking.packLabel": { es: "Pack individual personalizado", en: "Personalized individual pack" },
   "booking.packTitle": { es: "6 sesiones al mes", en: "6 sessions / month" },
   "booking.packDesc": { es: "Trabajo profundo y exclusivo, con seguimiento constante", en: "Deep, exclusive work with constant follow-up" },
   "booking.packPrice": { es: "2.300€", en: "€2,300" },
@@ -114,7 +114,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "booking.packLimit": { es: "Plazas limitadas a 6 personas por mes → máxima atención y resultados sostenibles.", en: "Limited to 6 people per month → maximum attention and sustainable results." },
 
   // Closing
-  "closing.label": { es: "✅ Exclusivo, limitado y transformador", en: "✅ Exclusive, limited & transformative" },
+  "closing.label": { es: "Exclusivo, limitado y transformador", en: "Exclusive, limited & transformative" },
   "closing.cta": { es: "Reserva tu espacio limitado ahora", en: "Reserve your limited spot now" },
 
   // Language switcher

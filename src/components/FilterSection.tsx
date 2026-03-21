@@ -25,7 +25,7 @@ const FilterSection = () => {
             <motion.li key={i} initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.3 + i * 0.12, ease: "easeOut" }}
               className="flex items-start gap-4 font-body text-base md:text-lg text-foreground/80 font-light">
-              <span className="text-gold mt-1.5 text-xs">◆</span>
+              <span className="text-gold mt-1.5 text-xs">—</span>
               <span>{item}</span>
             </motion.li>
           ))}
