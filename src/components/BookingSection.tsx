@@ -4,15 +4,15 @@ const BookingSection = () => (
   <section className="py-24 md:py-32 px-6 overflow-hidden">
     <div className="max-w-xl mx-auto text-center">
       <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-        transition={{ duration: 0.6 }} className="font-body text-xs tracking-[0.3em] uppercase text-gold mb-8">Proceso de reserva</motion.p>
+        transition={{ duration: 0.6 }} className="font-body text-xs tracking-[0.3em] uppercase text-gold mb-8">Booking process</motion.p>
       <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-        transition={{ duration: 0.7, delay: 0.1 }} className="font-display text-3xl md:text-4xl font-light text-foreground mb-6 leading-tight">Este espacio es limitado y exclusivo.</motion.h2>
+        transition={{ duration: 0.7, delay: 0.1 }} className="font-display text-3xl md:text-4xl font-light text-foreground mb-6 leading-tight">This space is limited and exclusive.</motion.h2>
       <motion.div initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="gold-line mb-14" />
       <div className="space-y-10 mb-16">
         {[
-          { step: "01", text: "Solicitas tu sesión" },
-          { step: "02", text: "Confirmamos disponibilidad" },
-          { step: "03", text: "Recibes indicaciones previas" },
+          { step: "01", text: "Request your session" },
+          { step: "02", text: "We confirm availability" },
+          { step: "03", text: "You receive pre-session instructions" },
         ].map((item, i) => (
           <motion.div
             key={i}
@@ -28,7 +28,7 @@ const BookingSection = () => (
         ))}
       </div>
       <motion.a
-        href="#reservar"
+        href="#book"
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -37,7 +37,7 @@ const BookingSection = () => (
         whileTap={{ scale: 0.97 }}
         className="inline-block border border-gold text-foreground font-body text-xs tracking-[0.3em] uppercase px-10 py-4 transition-colors duration-500"
       >
-        Aplicar ahora
+        Apply now
       </motion.a>
     </div>
   </section>

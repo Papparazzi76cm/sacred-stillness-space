@@ -1,18 +1,18 @@
 import { motion } from "framer-motion";
 
 const PricingSection = () => (
-  <section id="reservar" className="py-24 md:py-32 px-6 overflow-hidden">
+  <section id="book" className="py-24 md:py-32 px-6 overflow-hidden">
     <div className="max-w-3xl mx-auto text-center">
       <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-        transition={{ duration: 0.6 }} className="font-body text-xs tracking-[0.3em] uppercase text-gold mb-8">Formato y precios</motion.p>
+        transition={{ duration: 0.6 }} className="font-body text-xs tracking-[0.3em] uppercase text-gold mb-8">Format & pricing</motion.p>
       <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-        transition={{ duration: 0.7, delay: 0.1 }} className="font-display text-3xl md:text-5xl font-light text-foreground mb-14 leading-tight">Espacios disponibles</motion.h2>
+        transition={{ duration: 0.7, delay: 0.1 }} className="font-display text-3xl md:text-5xl font-light text-foreground mb-14 leading-tight">Available spaces</motion.h2>
       <motion.div initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="gold-line mb-16" />
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
         {[
-          { title: "Experiencia individual", subtitle: "1:1", description: "Un espacio completamente personalizado.", price: "220€", priceNote: "por sesión privada" },
-          { title: "Experiencia privada", subtitle: "Grupos reducidos", description: "Máximo 6–10 personas.", price: "desde 120€", priceNote: "" },
-          { title: "Inmersiones exclusivas", subtitle: "", description: "Para procesos más profundos.", price: "Consultar", priceNote: "" },
+          { title: "Individual experience", subtitle: "1:1", description: "A fully personalized space.", price: "€220", priceNote: "per private session" },
+          { title: "Private experience", subtitle: "Small groups", description: "Maximum 6–10 people.", price: "from €120", priceNote: "" },
+          { title: "Exclusive immersions", subtitle: "", description: "For deeper processes.", price: "Inquire", priceNote: "" },
         ].map((item, i) => (
           <motion.div
             key={i}
@@ -33,10 +33,10 @@ const PricingSection = () => (
       </div>
       <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }}
         className="font-body text-sm text-muted-foreground tracking-wide mb-10">
-        Este es un espacio premium y limitado. Solo se reserva para quienes realmente buscan una transformación profunda y efectiva.
+        This is a premium, limited space. It's reserved only for those truly seeking deep, effective transformation.
       </motion.p>
       <motion.a
-        href="#reservar"
+        href="#book"
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -45,7 +45,7 @@ const PricingSection = () => (
         whileTap={{ scale: 0.97 }}
         className="inline-block border border-gold text-foreground font-body text-xs tracking-[0.3em] uppercase px-10 py-4 transition-colors duration-500"
       >
-        Aplicar / Reservar
+        Apply / Book
       </motion.a>
     </div>
   </section>
