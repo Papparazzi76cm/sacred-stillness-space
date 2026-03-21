@@ -9,6 +9,7 @@ import AboutSection from "@/components/AboutSection";
 import BookingSection from "@/components/BookingSection";
 import ClosingSection from "@/components/ClosingSection";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import ChatWidget from "@/components/ChatWidget";
 
 const Index = () => (
   <main>
@@ -23,6 +24,7 @@ const Index = () => (
     <AboutSection />
     <BookingSection />
     <ClosingSection />
+    <ChatWidget />
   </main>
 );
 
