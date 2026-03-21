@@ -28,7 +28,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "hero.cta": { es: "Asegura tu sesión exclusiva", en: "Secure your exclusive session" },
 
   // What is
-  "what.label": { es: "🧬 Qué es", en: "🧬 What it is" },
+  "what.label": { es: "Qué es", en: "What it is" },
   "what.title": { es: "Qué es Sacred Stillness", en: "What is Sacred Stillness" },
   "what.not1": { es: "No es meditación tradicional.", en: "It's not traditional meditation." },
   "what.not2": { es: "No es coaching.", en: "It's not coaching." },
