@@ -19,14 +19,14 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-foreground/50" />
       </motion.div>
       <motion.div className="relative z-10 text-center px-6 max-w-3xl mx-auto" style={{ opacity: textOpacity, y: textY }}>
-        <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }}
-          className="font-body text-xs tracking-[0.3em] uppercase text-gold mb-6">
+        <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }}
+          className="font-display text-4xl md:text-6xl lg:text-7xl font-light text-primary-foreground mb-6 leading-[1.1]">
           {t("hero.title")}
-        </motion.p>
-        <motion.h1 initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
-          className="font-display text-4xl md:text-6xl lg:text-7xl font-light text-primary-foreground mb-8 leading-[1.1]">
-          {t("hero.punch")}
         </motion.h1>
+        <motion.p initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+          className="font-body text-base md:text-lg text-primary-foreground/80 tracking-wide max-w-xl mx-auto leading-relaxed mb-8">
+          {t("hero.punch")}
+        </motion.p>
         <motion.div initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }} className="gold-line mb-8" />
         <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.8 }}
           className="font-body text-sm md:text-base text-primary-foreground/70 tracking-wide max-w-xl mx-auto leading-relaxed mb-12">
