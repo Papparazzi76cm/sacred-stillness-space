@@ -91,7 +91,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "pricing.personalized": { es: "Cada sesión es personalizada y exclusiva, diseñada para que tu cuerpo recupere precisión y energía máxima.", en: "Each session is personalized and exclusive, designed for your body to recover precision and peak energy." },
 
   // Not section
-  "not.label": { es: "🚫 Lo que no es", en: "🚫 What it's not" },
+  "not.label": { es: "Lo que no es", en: "What it's not" },
   "not.title": { es: "Lo que Sacred Stillness no es", en: "What Sacred Stillness is not" },
   "not.item1": { es: "No es terapia psicológica", en: "It's not psychological therapy" },
   "not.item2": { es: "No es trabajo emocional", en: "It's not emotional work" },
