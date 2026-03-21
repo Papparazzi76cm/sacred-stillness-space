@@ -1,4 +1,5 @@
 import aboutImg from "@/assets/about-portrait.jpg";
+import { Instagram } from "lucide-react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -16,9 +17,14 @@ const AboutSection = () => {
         <motion.div className="aspect-[3/4] overflow-hidden relative">
           <motion.img src={aboutImg} alt="Your guide" className="w-full h-full object-cover" style={{ scale: imgScale, y: imgY }} />
           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent px-6 pb-6 pt-16">
-            <p className="font-display text-2xl md:text-3xl font-light tracking-[0.15em] text-white/90">
-              Adelaida Irrasabal
-            </p>
+            <div className="flex items-center gap-3">
+              <p className="font-display text-2xl md:text-3xl font-light tracking-[0.15em] text-white/90">
+                Adelaida Irrasabal
+              </p>
+              <a href="https://www.instagram.com/aditiflow_?igsh=cDJ0dWppMjBienVr" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-gold transition-colors">
+                <Instagram className="w-5 h-5" />
+              </a>
+            </div>
           </div>
         </motion.div>
         <div>
