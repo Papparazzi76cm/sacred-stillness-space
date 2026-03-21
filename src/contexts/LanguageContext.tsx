@@ -71,7 +71,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "results.testimonial": { es: "\"Después de 3 sesiones, duermo profundo, tomo decisiones estratégicas más rápido y mi energía se mantiene estable todo el día. Mi productividad se duplicó y mi mente se siente tranquila, incluso en semanas de alta presión. Fue transformador.\"", en: "\"After 3 sessions, I sleep deeply, make strategic decisions faster, and my energy stays stable all day. My productivity doubled and my mind feels calm, even during high-pressure weeks. It was transformative.\"" },
 
   // Pricing
-  "pricing.label": { es: "🧘‍♀️ Experiencia de la sesión", en: "🧘‍♀️ Session experience" },
+  "pricing.label": { es: "Experiencia de la sesión", en: "Session experience" },
   "pricing.title": { es: "Sesiones y precios", en: "Sessions & pricing" },
   "pricing.individual": { es: "Individual", en: "Individual" },
   "pricing.individualDetails": { es: "2 horas de trabajo + 1 hora de llegada/acompañamiento opcional", en: "2 hours of work + 1 hour arrival/optional guidance" },
