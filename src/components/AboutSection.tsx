@@ -21,7 +21,7 @@ const AboutSection = () => {
               <p className="font-display text-2xl md:text-3xl font-light tracking-[0.15em] text-white/90">
                 Adelaida Irrasabal
               </p>
-              <a href="https://www.instagram.com/aditiflow_?igsh=cDJ0dWppMjBienVr" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-gold transition-colors">
+              <a href="https://www.instagram.com/the.sacredstillness?igsh=NWs2dHY5Y2Rjcmky" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-gold transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
             </div>
