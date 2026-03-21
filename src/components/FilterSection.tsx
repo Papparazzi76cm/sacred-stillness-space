@@ -9,40 +9,33 @@ const fadeUp = {
 };
 
 const FilterSection = () => (
-  <section className="py-24 md:py-32 px-6 overflow-hidden">
+  <section className="py-24 md:py-32 px-6 bg-secondary overflow-hidden">
     <div className="max-w-2xl mx-auto text-center">
       <motion.p
         initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-80px" }}
         variants={fadeUp} custom={0}
         className="font-body text-xs tracking-[0.3em] uppercase text-gold mb-8"
       >
-        An exclusive space
+        🎯 Who it's for
       </motion.p>
       <motion.h2
         initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-80px" }}
         variants={fadeUp} custom={1}
-        className="font-display text-3xl md:text-5xl font-light text-foreground mb-12 leading-tight"
+        className="font-display text-3xl md:text-5xl font-light text-foreground mb-6 leading-tight"
       >
-        This space is not for everyone.
+        Sacred Stillness is for those who:
       </motion.h2>
       <motion.div
         initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }}
         viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }}
         className="gold-line mb-12"
       />
-      <motion.p
-        initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-80px" }}
-        variants={fadeUp} custom={2}
-        className="font-display text-xl md:text-2xl font-light italic text-foreground/80 mb-12"
-      >
-        It's for you if:
-      </motion.p>
       <ul className="space-y-6 text-left max-w-lg mx-auto mb-16">
         {[
-          "You live under high pressure or responsibility",
-          "Your mind won't stop, even when everything seems \"fine\"",
-          "You've tried other things, but still feel inner tension",
-          "You know you need something deeper, not more information",
+          "Carry high mental responsibility (entrepreneurs, executives, creative professionals).",
+          "Live under constant pressure and a packed schedule.",
+          "Feel overwhelmed even when they \"stop.\"",
+          "Seek clarity and energy without sacrificing performance.",
         ].map((item, i) => (
           <motion.li
             key={i}
@@ -57,22 +50,15 @@ const FilterSection = () => (
           </motion.li>
         ))}
       </ul>
-      <motion.div
-        initial="hidden" whileInView="visible" viewport={{ once: true }}
-        variants={fadeUp} custom={4}
-        className="space-y-2 font-body text-sm text-muted-foreground tracking-wide"
+      <motion.blockquote
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8, delay: 0.6 }}
+        className="font-display text-lg md:text-xl font-light italic text-foreground/80 border-l-2 border-gold/40 pl-6 text-left max-w-lg mx-auto"
       >
-        <p>It's not traditional therapy.</p>
-        <p>It's not coaching.</p>
-        <p>It's not superficial spirituality.</p>
-      </motion.div>
-      <motion.p
-        initial="hidden" whileInView="visible" viewport={{ once: true }}
-        variants={fadeUp} custom={5}
-        className="font-display text-2xl md:text-3xl font-light italic text-foreground mt-10"
-      >
-        It's direct experience.
-      </motion.p>
+        "I never thought real rest could coexist with peak performance. Sacred Stillness made it possible."
+      </motion.blockquote>
     </div>
   </section>
 );
