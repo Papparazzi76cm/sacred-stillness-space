@@ -114,7 +114,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "booking.packLimit": { es: "Plazas limitadas a 6 personas por mes → máxima atención y resultados sostenibles.", en: "Limited to 6 people per month → maximum attention and sustainable results." },
 
   // Closing
-  "closing.label": { es: "✅ Exclusivo, limitado y transformador", en: "✅ Exclusive, limited & transformative" },
+  "closing.label": { es: "Exclusivo, limitado y transformador", en: "Exclusive, limited & transformative" },
   "closing.cta": { es: "Reserva tu espacio limitado ahora", en: "Reserve your limited spot now" },
 
   // Language switcher
