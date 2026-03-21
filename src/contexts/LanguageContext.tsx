@@ -106,7 +106,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "booking.label": { es: "Continuidad y packs premium", en: "Continuity & premium packs" },
   "booking.title": { es: "Sostén el estado", en: "Sustain the state" },
   "booking.body": { es: "Después de experimentar Sacred Stillness, muchas personas descubren que su cuerpo y mente funcionan con más claridad y eficiencia. Para sostener este estado:", en: "After experiencing Sacred Stillness, many people discover that their body and mind function with greater clarity and efficiency. To sustain this state:" },
-  "booking.packLabel": { es: "✨ Pack individual personalizado", en: "✨ Personalized individual pack" },
+  "booking.packLabel": { es: "Pack individual personalizado", en: "Personalized individual pack" },
   "booking.packTitle": { es: "6 sesiones al mes", en: "6 sessions / month" },
   "booking.packDesc": { es: "Trabajo profundo y exclusivo, con seguimiento constante", en: "Deep, exclusive work with constant follow-up" },
   "booking.packPrice": { es: "2.300€", en: "€2,300" },
