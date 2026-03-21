@@ -45,7 +45,7 @@ const translations: Record<string, Record<Lang, string>> = {
   "exp.item3": { es: "Tu cuerpo aprende a responder con calma y precisión, incluso en días exigentes.", en: "Your body learns to respond with calm and precision, even on demanding days." },
 
   // Filter / Who it's for
-  "filter.label": { es: "🎯 Para quién está diseñado", en: "🎯 Who it's for" },
+  "filter.label": { es: "Para quién está diseñado", en: "Who it's for" },
   "filter.title": { es: "Sacred Stillness es para quienes:", en: "Sacred Stillness is for those who:" },
   "filter.item1": { es: "Sostienen alta responsabilidad mental (empresarios, ejecutivos, profesionales creativos).", en: "Carry high mental responsibility (entrepreneurs, executives, creative professionals)." },
   "filter.item2": { es: "Viven bajo presión constante y agenda cargada.", en: "Live under constant pressure and a packed schedule." },
