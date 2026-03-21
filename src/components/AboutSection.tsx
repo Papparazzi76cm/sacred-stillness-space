@@ -13,8 +13,13 @@ const AboutSection = () => {
   return (
     <section ref={ref} className="py-24 md:py-32 px-6 bg-secondary overflow-hidden">
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-        <motion.div className="aspect-[3/4] overflow-hidden">
+        <motion.div className="aspect-[3/4] overflow-hidden relative">
           <motion.img src={aboutImg} alt="Your guide" className="w-full h-full object-cover" style={{ scale: imgScale, y: imgY }} />
+          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent px-6 pb-6 pt-16">
+            <p className="font-display text-2xl md:text-3xl font-light tracking-[0.15em] text-white/90">
+              Adelaida Irradabal
+            </p>
+          </div>
         </motion.div>
         <div>
           <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
