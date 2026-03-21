@@ -19,11 +19,9 @@ export const useLanguage = () => {
 const translations: Record<string, Record<Lang, string>> = {
   // Hero
   "hero.title": { es: "The Sacred Stillness", en: "The Sacred Stillness" },
-  "hero.subtitle": { es: "Recalibración profunda del sistema nervioso", en: "Deep nervous system recalibration" },
+  "hero.punch": { es: "Tu sistema nervioso está saturado. Tu rendimiento lo paga.", en: "Your nervous system is overwhelmed. Your performance pays the price." },
   "hero.desc1": { es: "Para personas con alta exigencia mental que necesitan claridad, energía estable y descanso real.", en: "For people with high mental demands who need clarity, stable energy, and real rest." },
-  "hero.desc2": { es: "Un espacio donde tu cuerpo deja de sostener tensión innecesaria y recupera eficiencia, calma y precisión, incluso en medio del caos diario.", en: "A space where your body stops holding unnecessary tension and recovers efficiency, calm, and precision — even in the middle of daily chaos." },
-  "hero.quote": { es: "\"Tu mente nunca para, tu cuerpo siempre tenso… descansar parecía imposible. Sacred Stillness es la pausa que tu cuerpo necesita para recuperar claridad, energía estable y descanso profundo.\"", en: "\"Your mind never stops, your body always tense… resting seemed impossible. Sacred Stillness is the pause your body needs to recover clarity, stable energy, and deep rest.\"" },
-  "hero.cta": { es: "Asegura tu sesión exclusiva", en: "Secure your exclusive session" },
+  "hero.cta": { es: "Reserva tu sesión", en: "Book your session" },
 
   // What is
   "what.label": { es: "Qué es", en: "What it is" },
