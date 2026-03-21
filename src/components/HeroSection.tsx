@@ -40,12 +40,6 @@ const HeroSection = () => {
           className="font-display text-base md:text-lg font-light italic text-primary-foreground/80 max-w-lg mx-auto mb-10 border-l-2 border-gold/40 pl-6 text-left">
           {t("hero.quote")}
         </motion.blockquote>
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 1.6 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-          <span className="font-body text-xs text-primary-foreground/60 tracking-widest uppercase">{t("hero.individual")}</span>
-          <span className="hidden sm:inline text-gold/40">|</span>
-          <span className="font-body text-xs text-primary-foreground/60 tracking-widest uppercase">{t("hero.group")}</span>
-        </motion.div>
         <motion.a href="#book" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 1.8 }}
           whileHover={{ scale: 1.05, backgroundColor: "hsla(40,50%,62%,0.15)" }} whileTap={{ scale: 0.97 }}
           className="inline-block border border-gold text-primary-foreground font-body text-xs tracking-[0.3em] uppercase px-10 py-4 transition-colors duration-500">
