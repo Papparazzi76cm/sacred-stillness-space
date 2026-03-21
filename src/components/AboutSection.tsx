@@ -17,7 +17,7 @@ const AboutSection = () => {
           <motion.img src={aboutImg} alt="Your guide" className="w-full h-full object-cover" style={{ scale: imgScale, y: imgY }} />
           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent px-6 pb-6 pt-16">
             <p className="font-display text-2xl md:text-3xl font-light tracking-[0.15em] text-white/90">
-              Adelaida Irradabal
+              Adelaida Irrasabal
             </p>
           </div>
         </motion.div>
