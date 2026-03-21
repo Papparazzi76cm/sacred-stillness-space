@@ -9,7 +9,7 @@ const LanguageSwitcher = () => {
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 2 }}
-      className="fixed top-6 right-6 z-50 flex items-center gap-1 bg-foreground/80 backdrop-blur-sm border border-border/30 px-1 py-1"
+      className="fixed top-3 right-3 sm:top-6 sm:right-6 z-50 flex items-center gap-1 bg-foreground/80 backdrop-blur-sm border border-border/30 px-1 py-1"
     >
       {(["es", "en"] as Lang[]).map((l) => (
         <button
