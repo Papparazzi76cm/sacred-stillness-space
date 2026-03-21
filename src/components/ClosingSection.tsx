@@ -13,8 +13,8 @@ const ClosingSection = () => {
         <motion.div initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="gold-line mb-12" />
         <motion.a href="#book" initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          whileHover={{ scale: 1.05, backgroundColor: "hsla(40,50%,62%,0.15)" }} whileTap={{ scale: 0.97 }}
-          className="inline-block border border-gold text-primary-foreground font-body text-xs tracking-[0.3em] uppercase px-10 py-4 transition-colors duration-500">
+          whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}
+          className="inline-block bg-gold text-foreground font-body text-xs tracking-[0.3em] uppercase px-12 py-5 transition-all duration-500 hover:bg-gold-light">
           {t("closing.cta")}
         </motion.a>
       </div>
