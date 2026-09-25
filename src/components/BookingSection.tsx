@@ -26,7 +26,6 @@ const BookingSection = () => {
           <h3 className="font-display text-2xl md:text-3xl font-light text-foreground mb-4">{t("booking.packTitle")}</h3>
           <p className="font-body text-sm text-foreground/70 font-light mb-6">{t("booking.packDesc")}</p>
           <p className="font-display text-3xl md:text-4xl font-light text-foreground mb-2">{t("booking.packPrice")}</p>
-          <p className="font-body text-xs text-muted-foreground">{t("booking.packNote")}</p>
         </motion.div>
 
         <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }}
